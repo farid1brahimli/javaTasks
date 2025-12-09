@@ -43,7 +43,7 @@ public class StudentServices {
 
     public static void getAllStudents(){
         for(int i = 0; i < StudentRepository.students.length; i++){
-            if(StudentRepository.students[i] != null && StudentRepository.students[i].getStatus().equals("Active")){
+            if(StudentRepository.students[i] !=  null && StudentRepository.students[i].getStatus().equals("Active")){
                 System.out.println(StudentRepository.students[i]);
             }
         }
