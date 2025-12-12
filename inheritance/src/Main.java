@@ -35,6 +35,8 @@ public class Main {
 //        electricCar.chargeBattery();
 //        Employeee staff1 = new Employeee("Jane", 200);
 //        staff1.getSalary();
+
+        //TASK5
         Manager manager1 = new Manager("Jane",200);
         manager1.getSalary();
         Developer developer1 = new Developer("Farid", 300);
