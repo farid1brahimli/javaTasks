@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b34302b9-16d9-4b53-aa2c-c35a9e24cd9a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../examTask2/src/DivisionByZeroException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../examTask2/src/MathUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WashingMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../examTask1/src/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examTask1/src/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../examTask1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examTask1/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../examTask1/src/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examTask1/src/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../examTask1/src/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examTask1/src/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../examTask2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examTask2/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../examTask3/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examTask3/src/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Discount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ElectronicsProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ElectronicsProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="b34302b9-16d9-4b53-aa2c-c35a9e24cd9a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,37 +20,37 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "farid1brahimli"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;farid1brahimli&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/farid1brahimli/javaTasks.git",
-    "accountId": "45d46eb7-ac43-4456-ba51-0241026d2a94"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/farid1brahimli/javaTasks.git&quot;,
+    &quot;accountId&quot;: &quot;45d46eb7-ac43-4456-ba51-0241026d2a94&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="37zRkXP1iT9DGjTAjPrXVxZcZle" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/Farid/IdeaProjects/examTask4/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Farid/IdeaProjects/examTask4/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
