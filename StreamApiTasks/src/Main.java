@@ -3,6 +3,42 @@ import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
+        //TASK27
+//       List<Integer> numbers = List.of(1,4,3,8,5);
+//       List<Integer> result = numbers.stream().skip(2).toList();
+//        System.out.println(result);
+        //TASK26
+//        List<String> names = List.of("Java","Python","C++");
+//        String first = names.stream().findFirst().orElse(null);
+//        System.out.println(first);
+        //TASK25
+//        List<Integer> numbers = List.of(9,3,6);
+//        int minElem = numbers.stream().min(Integer::compareTo).get();
+//        System.out.println(minElem);
+        //TASK24
+//       List<Integer> numbers = List.of(4,2,1,3);
+//       List<Integer> result = numbers.stream()
+//               .sorted(Comparator.reverseOrder()).toList();
+//       System.out.println(result);
+        //TASK23
+//        List<String> words = List.of("Banana", "Apple", "Mango");
+//        List<String> sortedWordsByAlphabet = words.stream()
+//                .sorted().toList();
+//        System.out.println(sortedWordsByAlphabet);
+        //TASK22
+//      List<Integer> numbers = List.of(1, 2, 3, 4, 5);
+//      Boolean noneNegative = numbers.stream()
+//              .noneMatch(n -> n < 0);
+//      System.out.println(noneNegative);
+        //TASK21
+//        List<Integer> numbers = List.of(1,3,5,-5,-6,0);
+//        Boolean allPositive = numbers.stream().allMatch(x -> x > 0);
+//        System.out.println(allPositive);
+        //TASK20
+//        List<Integer> numbers = List.of(1, 2, 3, 4, 5);
+//        Boolean anyEven = numbers.stream()
+//                .anyMatch(x -> x % 2 == 0);
+//        System.out.println(anyEven);
         //TASK19
 //        List<String> words = List.of("One", "Two", "Three", "Four");
 //        List<Integer> count = words.stream().map(String::length).toList();
