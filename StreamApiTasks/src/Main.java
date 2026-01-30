@@ -3,57 +3,114 @@ import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
+        //TASK35
+//        List<String> names = List.of("A","B","A");
+//        Set<String> set = names.stream().collect(Collectors.toSet());
+//        System.out.println(set);
+
+        //TASK34
+//        List<String> list = List.of();
+//        Boolean isEmpty = list.isEmpty();
+//        System.out.println(isEmpty);
+
+        //TASK33
+//        List<String> items = List.of("pen","pencil","eraser");
+//        long count = items.stream().count();
+//        System.out.println(count);
+
+        //TASK32
+//        List<Integer> numbers = List.of(1,2,3,4);
+//        int sum = numbers.stream().mapToInt(n -> n).sum();
+//        System.out.println(sum);
+
+        //TASK31
+//        List<String> words = List.of("A","B","C");
+//        String result = words.stream()
+//                .collect(Collectors.joining(","));
+//        System.out.println(result);
+
+        //TASK30
+//        List<Integer> numbers = List.of(1,2,3);
+//        List<String> result = numbers.stream()
+//                .map(String::valueOf).toList();
+//        System.out.println(result);
+
+        //TASK29
+//        List<Integer> numbers = List.of(1,2,2,3,3,4);
+//        List<Integer> result = numbers.stream()
+//                .distinct().toList();
+//        System.out.println(result);
+
+        //TASK28
+//        List<Integer> numbers = List.of(10,20,30,40,50);
+//        List<Integer> result = numbers.stream()
+//                .limit(3)
+//                .toList();
+//        System.out.println(result);
+
         //TASK27
 //       List<Integer> numbers = List.of(1,4,3,8,5);
 //       List<Integer> result = numbers.stream().skip(2).toList();
 //        System.out.println(result);
+
         //TASK26
 //        List<String> names = List.of("Java","Python","C++");
 //        String first = names.stream().findFirst().orElse(null);
 //        System.out.println(first);
+
         //TASK25
 //        List<Integer> numbers = List.of(9,3,6);
 //        int minElem = numbers.stream().min(Integer::compareTo).get();
 //        System.out.println(minElem);
+
         //TASK24
 //       List<Integer> numbers = List.of(4,2,1,3);
 //       List<Integer> result = numbers.stream()
 //               .sorted(Comparator.reverseOrder()).toList();
 //       System.out.println(result);
+
         //TASK23
 //        List<String> words = List.of("Banana", "Apple", "Mango");
 //        List<String> sortedWordsByAlphabet = words.stream()
 //                .sorted().toList();
 //        System.out.println(sortedWordsByAlphabet);
+
         //TASK22
 //      List<Integer> numbers = List.of(1, 2, 3, 4, 5);
 //      Boolean noneNegative = numbers.stream()
 //              .noneMatch(n -> n < 0);
 //      System.out.println(noneNegative);
+
         //TASK21
 //        List<Integer> numbers = List.of(1,3,5,-5,-6,0);
 //        Boolean allPositive = numbers.stream().allMatch(x -> x > 0);
 //        System.out.println(allPositive);
+
         //TASK20
 //        List<Integer> numbers = List.of(1, 2, 3, 4, 5);
 //        Boolean anyEven = numbers.stream()
 //                .anyMatch(x -> x % 2 == 0);
 //        System.out.println(anyEven);
+
         //TASK19
 //        List<String> words = List.of("One", "Two", "Three", "Four");
 //        List<Integer> count = words.stream().map(String::length).toList();
 //        System.out.println(count);
+
         //TASK18
 //        List<Integer> numbers = List.of(1,2,3);
 //        List<Integer> result = numbers.stream().map(n -> n * 2).toList();
 //        System.out.println(result);
+
         //TASK17
 //        List<Integer> numbers = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 //        List<Integer> result = numbers.stream().filter(n -> n > 5).toList();
 //        System.out.println(result);
+
         //TASK16
 //        List<String> marks = List.of("A", "B", "C");
 //        marks.stream().forEach(System.out::println);
+
         //TASK14
 //        List<Employee> employees = List.of(
 //                new Employee("Farid", 2200),
@@ -64,10 +121,12 @@ public class Main {
 //        List<Employee> result = employees.stream()
 //                .sorted(Comparator.comparingDouble(Employee::getSalary)).toList();
 //        System.out.println(result);
+
         //TASK15
 //        double average = employees.stream()
 //                .collect(Collectors.averagingDouble(Employee::getSalary));
 //        System.out.println(average);
+
         //TASK13
 //        List<List<String>> list = List.of(
 //                List.of("A", "B"),
@@ -78,6 +137,7 @@ public class Main {
 //                .flatMap(List::stream)
 //                .toList();
 //        System.out.println(result);
+
         //TASK12
 //        List<Integer> numbers = List.of(1,2,3,2,4,5,6,3,3,7,1);
 //        Set<Integer> seen = new HashSet<>();
@@ -85,47 +145,58 @@ public class Main {
 //                .filter(n -> !seen.add(n))
 //                .collect(Collectors.toSet());
 //        System.out.println("Duplicates: " + duplicates);
+
         //TASK11
 //        List<Integer> numbers = List.of(1,2,3,4,5);
 //        Map<Boolean, List<Integer>> result = numbers.stream().collect(Collectors.partitioningBy(x -> x % 2 == 0));
 //        System.out.println(result);
+
         //TASK10
 //        List<String> words = List.of("a","bb","ccc","dd");
 //        Map<Integer, List<String>> map = words.stream().collect(Collectors.groupingBy(String::length));
 //        System.out.println(map);
+
         //TASK9
 //        List<Integer> numbers = List.of(10,50,30);
 //        int maxElem = numbers.stream().max(Integer::compareTo).get();
 //        System.out.println(maxElem);
+
         //TASK8
 //        List<String> fruits = List.of("apple", "banana", "kiwi", "lemon");
 //        Map<String, Integer> result = fruits.stream()
 //                .collect(Collectors.toMap(w -> w, String::length));
 //        System.out.println(result);
+
         //TASK7
 //        List<Integer> numbers = List.of(1,2,3,4,5,6);
 //        int evenNumbersSum = numbers.stream().filter(n -> n % 2 == 0).mapToInt(Integer::intValue).sum();
 //        System.out.println(evenNumbersSum);
+
         //TASK6
 //        List<Integer> list = List.of(3,1,4,2);
 //        List<Integer> result = list.stream().map(n -> n*n).sorted().toList();
 //        System.out.println(result);
+
         //TASK5
 //        List<String> names = List.of("Farid", "Ramin", "Elmar", "Marif");
 //        String aNames = names.stream().filter(n-> n.startsWith("A")).findFirst().orElse(null);
 //        System.out.println(aNames);
-        //TASK4****************************************************************************
+
+        //TASK4
 //        List<String> data = Arrays.asList("salam", null, "Sagol", null, "bayraa");
 //        List<String> result = data.stream().filter(Objects::nonNull).toList();
 //        System.out.println(result);
+
         //TASK3
 //        List<Integer> numbers = List.of(5,10,15,20);
 //        Long count = numbers.stream().filter(n -> n>10).count();
 //        System.out.println(count);
+
         //TASK2
 //        List<String> names = List.of("java", "stream", "api");
 //        List<String> result = names.stream().map(String::toUpperCase).toList();
 //        System.out.println(result);
+
         //TASK1
 //        List<Integer> numbers = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 //        List<Integer> result = numbers.stream()
