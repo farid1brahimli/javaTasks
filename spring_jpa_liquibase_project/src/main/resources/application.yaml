@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: spring_jpa_relations
+  datasource:
+    url: jdbc:postgresql://localhost:5433/e_commerce
+    username: nostalgic_bohr
+    password: 1234
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+    hibernate:
+      ddl-auto: none
+    open-in-view: true
+server:
+  port: 9090

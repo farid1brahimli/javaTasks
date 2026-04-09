@@ -1,0 +1,32 @@
+databaseChangeLog:
+  - changeSet:
+      id: 20250402
+      author: farid1brahimli
+      changes:
+        - createTable:
+           tableName: "products"
+           ifNotExists: true
+           columns:
+            - column:
+                name: id
+                type: BIGSERIAL
+                autoIncrement: true
+                constraints:
+                  primaryKey: true
+
+            - column:
+                name: name
+                type: VARCHAR(255)
+
+            - column:
+               name: price
+               type: DECIMAL(10,2)
+
+            - column:
+                name: quantity
+                type: INT
+
+            - column:
+                name: created_at
+                type: TIMESTAMP
+                defaultValueComputed: CURRENT_TIMESTAMP
