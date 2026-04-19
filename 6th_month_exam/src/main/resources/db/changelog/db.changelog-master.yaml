@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/db.changelog-create_student_table-1.0.0.yaml
+  - include:
+      file: db/changelog/db.changelog-create_course_table-1.0.0.yaml
+  - include:
+      file: db/changelog/db.changelog-student_course-1.0.0.yaml

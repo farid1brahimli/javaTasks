@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: "6th_month_exam"
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+    hibernate:
+      ddl-auto: update
+    open-in-view: true
