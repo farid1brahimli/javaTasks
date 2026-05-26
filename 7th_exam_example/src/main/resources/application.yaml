@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: 7th_exam_example
+  datasource:
+    url: jdbc:postgresql://localhost:5433/book_db
+    username: nostalgic_bohr
+    password: 1234
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+    hibernate:
+      ddl-auto: update
+    open-in-view: true
+kind: Application
+jwt:
+  secret-key: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWUsImlhdCI6MTUxNjIzOTAyMn0.KMUFsIDTnFmyG3nMiGM6H9FNFUROf3wh7SmqJp-QV30
+  access-token-expiration: 15 # 15Minutes
