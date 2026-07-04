@@ -15,6 +15,7 @@ import java.math.BigDecimal;
 @Table(name = "books")
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class BookEntity {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
